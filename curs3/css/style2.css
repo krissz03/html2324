@@ -1,0 +1,32 @@
+h1{color: blueviolet;}
+div{
+    width: 45%;
+    border: 2px solid #000000;
+    float: left;
+    padding: 25px;
+    margin: 10px;
+}
+#stanga{
+    background-color: blanchedalmond;
+}
+#dreapta{
+    background-color: aqua;
+}
+.p1{
+    color: red;
+}
+.p2{
+    color: rebeccapurple;
+}
+#idp5{
+    color: green;
+}
+#bottom{
+    width: 100%;
+}
+#bottom>p{
+    color: red;
+}
+#bottom article~p{
+    color: violet;
+}
