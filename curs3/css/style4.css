@@ -1,0 +1,25 @@
+body{
+    margin: 20px auto;
+    width: 100%;
+    
+}
+
+div{
+    width: 100%;
+    max-width: 360px;
+    float: left;
+    margin: 20px 25px  15px 20px  ;
+    padding: 25px;
+    border-top: 2px solid red;
+    border-left: 2px dotted goldenrod;
+    border-bottom: 2px solid green;
+    border-right: 2px dotted orange;
+    /* border-color: blue; */
+    /* border-style: double; */
+    /* border-width: 2px; */
+    border-radius: 25px;
+    background-image: url(../../curs2/imeges/Domaio_A_Poza_da_Moura_2.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    color: #ad1
+}
