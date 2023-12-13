@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/ap4.css">
+</head>
+<body>
+    <h2>Formular de contact</h2>
+    <form action="" method="post" enctype="multipart/form-data">
+        <div>
+        <label for="oras">Selecteaza orasul</label>
+        <select name="oras" id="oras" required>
+            <option value="">selecteaza oras ..</option>
+            <option value="1">Bucuresti</option>
+            <option value="2">arad</option>
+            <option value="3">jibou</option>
+            <option value="4">deva</option>
+            <option value="5">iasi</option>
+            <option value="6">cluj</option>
+            <option value="7">satumare</option>
+        </select>
+    </div>
+    <div>
+        <label for="">cursuri</label>
+        <select name="cursuri" id="cursuri">
+            <option value="html">HTML</option>
+            <option value="react">React</option>
+            <option value="js">Javascript</option>
+            <option value="css">css</option>
+        </select>
+    </div>
+    <div>
+        <label for="mesaj">Mesaj</label>
+        <textarea name="mesaj" id="mesaj" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <label for="cv">CV</label>
+        <input type="file" name="cv" id="cv">
+    </div>
+    <fieldset>
+        <legend>program de cursuri</legend>
+        <label for="dim">dimineata</label>
+        <input type="radio" name="program" id="dim" value="dimineata">
+        <label for="pranz">pranz</label>
+        <input type="radio" name="program" id="pranz" value="pranz">
+        <label for="seara">seara</label>
+        <input type="radio" name="program" id="seara" value="seara" checked>
+
+    </fieldset>
+    <div>
+       <input type="checkbox" name="termeni" id="termeni">
+        <label for="termeni">Termenei si conditi</label>
+        
+        <input type="checkbox" name="abonat" id="abonat">
+        <label for="abonat">ma abonezi</label>
+    </div>
+    <div>
+        <input type="submit" value="trimite datele">
+    </div>
+    </form>
+
+    
+</body>
+</html>
